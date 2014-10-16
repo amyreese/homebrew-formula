@@ -9,7 +9,6 @@ class CommuniDesktop < Formula
 
   def install
     ENV.deparallelize  # if your formula fails when building in parallel
-    system "git", "submodule", "update", "--init", "--recursive"
     system "qmake"
     system "make", "install"
   end
