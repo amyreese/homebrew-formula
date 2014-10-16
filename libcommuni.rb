@@ -2,8 +2,7 @@ require "formula"
 
 class Libcommuni < Formula
   homepage "https://github.com/communi/libcommuni"
-  url "https://github.com/communi/libcommuni.git", :using => :git, :tag => "v3.2.0"
-  sha1 ""
+  url "https://github.com/communi/libcommuni.git", :tag => "v3.2.0"
 
   depends_on "qt5" => :build
 
