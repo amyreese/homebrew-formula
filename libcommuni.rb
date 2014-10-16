@@ -2,6 +2,7 @@ require "formula"
 
 class Libcommuni < Formula
   homepage "https://github.com/communi/libcommuni"
+  head "https://github.com/communi/libcommuni.git"
   url "https://github.com/communi/libcommuni/archive/v3.2.0.tar.gz"
   sha1 "cb6af7147abbf7a5b32b44eba7e43f11255754ec"
 
