@@ -8,7 +8,7 @@ class Libcommuni < Formula
   depends_on "qt5" => :build
 
   def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
+    ENV.deparallelize  # if your formula fails when building in parallel
     system "qmake"
     system "make", "install"
   end

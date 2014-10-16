@@ -9,7 +9,7 @@ class CommuniDesktop < Formula
   depends_on "libcommuni"
 
   def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
+    ENV.deparallelize  # if your formula fails when building in parallel
     system "qmake"
     system "make", "install"
   end
