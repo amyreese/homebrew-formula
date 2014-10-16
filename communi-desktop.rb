@@ -2,7 +2,8 @@ require "formula"
 
 class CommuniDesktop < Formula
   homepage "https://github.com/communi/communi-desktop"
-  head "https://github.com/communi/communi-desktop.git"
+  url "https://github.com/communi/communi-desktop.git", :using => :git, :tag => "3.2.0"
+  sha1 ""
 
   depends_on "qt5" => :build
   depends_on "libcommuni"
