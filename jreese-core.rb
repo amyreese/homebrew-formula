@@ -1,6 +1,6 @@
 require "formula"
 
-class Libcommuni < Formula
+class JreeseCore < Formula
   homepage "https://github.com/jreese/homebrew-formula"
   url "https://github.com/jreese/hang", :tag => "v1.0"
 
