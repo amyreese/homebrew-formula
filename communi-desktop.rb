@@ -2,7 +2,7 @@ require "formula"
 
 class CommuniDesktop < Formula
   homepage "https://github.com/communi/communi-desktop"
-  url "https://github.com/communi/communi-desktop.git", :tag => "v3.3.0"
+  url "https://github.com/communi/communi-desktop.git", :tag => "v3.4.0"
   head "https://github.com/communi/communi-desktop.git"
 
   depends_on "qt5" => :build

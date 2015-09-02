@@ -2,7 +2,7 @@ require "formula"
 
 class Libcommuni < Formula
   homepage "https://github.com/communi/libcommuni"
-  url "https://github.com/communi/libcommuni.git", :tag => "v3.3.0"
+  url "https://github.com/communi/libcommuni.git", :tag => "v3.4.0"
   head "https://github.com/communi/libcommuni.git"
 
   depends_on "qt5" => :build
