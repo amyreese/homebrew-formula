@@ -6,9 +6,13 @@ class JreeseCore < Formula
 
   depends_on "ack"
   depends_on "aria2"
+  depends_on "autoconf"
+  depends_on "automake"
   depends_on "cv"
+  depends_on "gcc"
   depends_on "git"
-  depends_on "htop"
+  depends_on "htop-osx"
+  depends_on "keybase"
   depends_on "mercurial"
   depends_on "mosh"
   depends_on "node"
@@ -16,6 +20,7 @@ class JreeseCore < Formula
   depends_on "python3"
   depends_on "tmux"
   depends_on "vim"
+  depends_on "watch"
   depends_on "wget"
   depends_on "zsh"
 
