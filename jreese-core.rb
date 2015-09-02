@@ -20,7 +20,7 @@ class Libcommuni < Formula
   depends_on "zsh"
 
   def install
-    system "true"
+    system "make"
   end
 
   test do
