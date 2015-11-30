@@ -3,7 +3,7 @@ require "formula"
 class Libcommuni < Formula
   homepage "https://github.com/communi/libcommuni"
   url "https://github.com/communi/libcommuni.git", :tag => "v3.4.0"
-  head "https://github.com/jreese/libcommuni.git", :branch => "mac-ssl"
+  head "https://github.com/jreese/libcommuni.git", :branch => "qt5-ssl"
 
   depends_on "qt5" => :build
 
