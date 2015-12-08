@@ -2,7 +2,7 @@ require "formula"
 
 class JreeseCore < Formula
   homepage "https://github.com/jreese/homebrew-formula"
-  url "https://github.com/jreese/hang.git", :tag => "v1.0", :revision => "b986fd0722a37600a2f4b38b1156e4cbc143748e"
+  url "https://github.com/jreese/hang.git", :tag => "v1.1", :revision => "b348a37b7504bf33c12f7f0b580f09819d7d9bdb"
 
   depends_on "ack"
   depends_on "aria2"
@@ -25,7 +25,7 @@ class JreeseCore < Formula
   depends_on "zsh"
 
   def install
-    system "make"
+    system "make", "PREFIX=#{prefix}", "install"
   end
 
   test do
