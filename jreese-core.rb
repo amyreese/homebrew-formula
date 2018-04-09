@@ -15,10 +15,10 @@ class JreeseCore < Formula
   depends_on "gawk"
   depends_on "gcc"
   depends_on "git"
-  depends_on :hg
   depends_on "htop-osx"
   depends_on "keybase"
   depends_on "keychain"
+  depends_on "mercurial"
   depends_on "mobile-shell"
   depends_on "node"
   depends_on "openssl"
