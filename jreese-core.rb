@@ -7,8 +7,8 @@ class JreeseCore < Formula
   depends_on "ack"
   depends_on "android-platform-tools"
   depends_on "aria2"
-  depends_on "autoconf" => :run
-  depends_on "automake" => :run
+  depends_on "autoconf"
+  depends_on "automake"
   depends_on "cask"
   depends_on "certbot"
   depends_on "coreutils"
